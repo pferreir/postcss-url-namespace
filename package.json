@@ -1,0 +1,35 @@
+{
+  "name": "postcss-url-namespaces",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that allows for the creation of 'virtual' asset namespaces.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "assets"
+  ],
+  "author": "Pedro Ferreira <pedro.ferreira@cern.ch>",
+  "license": "MIT",
+  "repository": "pferreir/postcss-url-namespaces",
+  "bugs": {
+    "url": "https://github.com/pferreir/postcss-url-namespaces/issues"
+  },
+  "homepage": "https://github.com/pferreir/postcss-url-namespaces",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
